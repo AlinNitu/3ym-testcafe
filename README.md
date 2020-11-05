@@ -6,7 +6,7 @@ Before running the test, go to the *properties* files and replace the values of 
 
 The tests can be run from the terminal as follows:
 
-a. run an individual test with the command: **testcafe <browser> <testFile>**.
+a. run an individual test with the command: **testcafe browser testFile**.
   In our case it will be **testcafe chrome test-collection/login.spec.ts** or **testcafe chrome, safari test-collection/upload.spec.ts**;
 
 b. run the entire suite with the command **npm test**;
