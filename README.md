@@ -2,7 +2,7 @@
 
 In order to run this project you will need to install *node.js*, *npm*, *testcafe* and an *IDE* of your preference (Visual Studio Code is my recommendation).
 
-Before running the test, go to the *properties* files and replace the values of the fields *validEmail* and *validPassword* with your valid account credentials. (However I will also keep mine in the project for now).
+Before running the test, go to the *properties* file and replace the values of the fields *validEmail* and *validPassword* with your valid account credentials. (However I will also keep mine in the project for now).
 
 The tests can be run from the terminal as follows:
 
