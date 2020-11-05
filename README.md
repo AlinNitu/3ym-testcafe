@@ -1,14 +1,13 @@
 # 3YM Project
 
-In order to run this project you will need to install node.js, npm and an IDE of your preference (Visual Studio Code is my recommendation).
-Next, you will need to install testcafe in your project by running this command in the terminal: npm install testcafe
+In order to run this project you will need to install *node.js*, *npm*, *testcafe* and an *IDE* of your preference (Visual Studio Code is my recommendation).
 
-Before running the test, go to the properties files and replace the values of the fields validEmail and validPassword with your valid account credentials. (However I will also keep mine in the project for now).
+Before running the test, go to the *properties* files and replace the values of the fields *validEmail* and *validPassword* with your valid account credentials. (However I will also keep mine in the project for now).
 
 The tests can be run from the terminal as follows:
 
 a. run an individual test with the command: testcafe <browser> <testFile>;
-In our case it will be testcafe chrome test-collection/login.spec.ts or testcafe chrome, safari test-collection/upload.spec.ts;
+In our case it will be **testcafe chrome test-collection/login.spec.ts** or **testcafe chrome, safari test-collection/upload.spec.ts**;
 
 b. run the entire suite with the command npm test;
 The suite is configured to run on chrome but you can edit or add more browsers in testcafe.config.js;
