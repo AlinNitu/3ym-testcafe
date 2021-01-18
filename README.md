@@ -1,4 +1,5 @@
-# Testcafe Project
+# Testcafe project
+(the website it was created for is not available anymore. This can be easily adapted for other websites by updating the base url, credentials and the page elements selectors)
 
 In order to run this project you will need to install *node.js*, *npm*, *testcafe* and an *IDE* of your preference.
 
