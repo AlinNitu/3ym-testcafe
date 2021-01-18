@@ -1,5 +1,4 @@
 # Testcafe project
-(the website it was created for is not available anymore. This can be easily adapted for other websites by updating the base url, credentials and the page elements selectors)
 
 In order to run this project you will need to install *node.js*, *npm*, *testcafe* and an *IDE* of your preference.
 
@@ -12,3 +11,5 @@ a. run an individual test with the command: **testcafe browser testFile**.
 
 b. run the entire suite with the command **npm test**;
 The suite is configured to run on chrome but you can edit or add more browsers in *testcafe.config.js*;
+
+### !!! the website it was created for is not available anymore. This can be easily adapted for other websites by updating the base url, credentials and the page elements selectors
