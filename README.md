@@ -11,7 +11,3 @@ a. run an individual test with the command: **testcafe browser testFile**.
 
 b. run the entire suite with the command **npm test**;
 The suite is configured to run on chrome but you can edit or add more browsers in *testcafe.config.js*;
-
-**Future improvements:**
-- remove properties file from git and keep it locally;
-- simplify the successful login test in a single function in order to use it as a before hook;
